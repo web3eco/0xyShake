@@ -51,3 +51,7 @@ export const Input = styled("input")`
     border: 1px solid #fefefe;
   }
 `;
+
+export const Relative = styled("div")`
+    position: relative;
+`
