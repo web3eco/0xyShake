@@ -63,7 +63,7 @@ export function TreeShake({}) {
         setIsPressed(false)
     }
 
-    const onMouseMove = (e) => {
+    const onMouseMove = (e: any) => {
         if (isPressed) {
             let x, y: number;
             if (e.changedTouches) {
